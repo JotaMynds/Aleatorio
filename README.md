@@ -59,6 +59,18 @@ El `.jar` resultante de este módulo se usará como fuente de datos (números al
 
 ---
 
+## Uso de tuberías
+
+Este programa puede usarse junto con otros mediante **tuberías**.  
+Las tuberías son un mecanismo del sistema operativo que conecta la salida de un programa con la entrada de otro, usando el símbolo `|`.
+
+Por ejemplo:
+
+bash
+java -jar Aleatorio.jar | java -jar OrdenarNumeros.jar
+
+---
+
 ## 🧑‍💻 Autor
 
 - [JotaMynds](https://github.com/JotaMynds)
